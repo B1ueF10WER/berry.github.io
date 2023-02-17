@@ -4,7 +4,7 @@ const gameContainer = document.getElementById('game-container');
 
 
 const buddyImg = new Image();
-buddyImg.src = '<img width="34" alt="New-Gibby" src="https://user-images.githubusercontent.com/93166959/219743759-b6c71f83-6f4e-4c41-a668-95ffec25d285.png">';
+buddyImg.src = 'https://user-images.githubusercontent.com/93166959/219743759-b6c71f83-6f4e-4c41-a668-95ffec25d285.png';
 
 const FLAP_SPEED = -5;
 const BUDDY_WIDTH = 30;
