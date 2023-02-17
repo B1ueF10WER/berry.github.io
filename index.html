@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>The Star shines, the world says hello!</title>
-	<link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-	<h1>Astronomy</h1>
-	<p>In our <strong>solar system</strong>, there are <strong>8</strong> planets. </p>
-	<p1>And one of them is our <strong>home!</strong> While this is one solar system,</p1>
-	<p2>there are <a href="https://spaceplace.nasa.gov/other-solar-systems/en/" title="SpacePlace" target="_blank">many more!</a></p2>	
-	<img
-	 src="https://spaceplace.nasa.gov/resources/homepage/nasa.png" alt="NASA  icon"
-	/>
-	<p class="editor-note">The moon is bright tonight!
-	</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="astro.css">
+    <title>Astro Buddy</title>
+</head>
+<body>
+        <div id="end-menu">
+            <h1>Game-over!</h1>
+            <p> Score: <span id="end-score"></span></p>
+            <p> Best: <span id="best-score"></span></p>
+            <button id="restart">Restart the Page!</button>
+        </div>
+        <div id="game-container">
+            <canvas id="game-canvas" width="400" height="600"></canvas>
+            <div id="score-display">Created by Moises Vaca!</div>
+        </div>
+        <script src="astro.js"></script>
+</body>
 </html>
-
